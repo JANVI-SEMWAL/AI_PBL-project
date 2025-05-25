@@ -1,0 +1,186 @@
+{
+    "Patient1_Relative1": {
+        "patient_name": "Ram",
+        "relative_name": "yanshu",
+        "relation": "father",
+        "extra_info": " good in maths"
+    },
+    "Patient1_Relative2": {
+        "patient_name": "Ram",
+        "relative_name": "raghu",
+        "relation": "son",
+        "extra_info": "makes yummy shwarma"
+    },
+    "Patient1_Relative3": {
+        "patient_name": "Ram",
+        "relative_name": "abir",
+        "relation": "brother",
+        "extra_info": "plays basketball well"
+    },
+    "Patient1_Relative4": {
+        "patient_name": "Ram",
+        "relative_name": "fateh",
+        "relation": "Uncle",
+        "extra_info": "travels a lot"
+    },
+    "Patient1_Relative5": {
+        "patient_name": "Ram",
+        "relative_name": "ragnar",
+        "relation": "grandfather",
+        "extra_info": "has a lot knowledge of politics"
+    },
+    "Patient2_Relative1": {
+        "patient_name": "John Doe",
+        "relative_name": "samuel",
+        "relation": "father",
+        "extra_info": "Primary emergency contact"
+    },
+    "Patient2_Relative2": {
+        "patient_name": "John Doe",
+        "relative_name": "Tom Doe",
+        "relation": "uncle",
+        "extra_info": "Lives in same household"
+    },
+    "Patient2_Relative3": {
+        "patient_name": "John Doe",
+        "relative_name": "sarahn",
+        "relation": "brother",
+        "extra_info": "Accompanies patient to checkups"
+    },
+    "Patient2_Relative4": {
+        "patient_name": "John Doe",
+        "relative_name": "Robert Doe",
+        "relation": "cousin",
+        "extra_info": "Has medical power of attorney"
+    },
+    "Patient2_Relative5": {
+        "patient_name": "John Doe",
+        "relative_name": "Emma Smith",
+        "relation": "grandmother",
+        "extra_info": "Visited patient last month"
+    },
+
+    "Patient3_Relative1": {
+        "patient_name": "Aisha Khan",
+        "relative_name": "Imran Khan",
+        "relation": "father",
+        "extra_info": "Provides insurance coverage"
+    },
+    "Patient3_Relative2": {
+        "patient_name": "Aisha Khan",
+        "relative_name": "Salman Khan",
+        "relation": "cousin",
+        "extra_info": "Emergency contact"
+    },
+    "Patient3_Relative3": {
+        "patient_name": "Aisha Khan",
+        "relative_name": "Rashid Khan",
+        "relation": "brother",
+        "extra_info": "Lives abroad"
+    },
+    "Patient3_Relative4": {
+        "patient_name": "Aisha Khan",
+        "relative_name": "Nadian Khan",
+        "relation": "Uncle",
+        "extra_info": "Retired compounder"
+    },
+    "Patient3_Relative5": {
+        "patient_name": "Aisha Khan",
+        "relative_name": "Zoya Ali",
+        "relation": "cousin",
+        "extra_info": "Frequent visitor"
+    },
+
+    "Patient4_Relative1": {
+        "patient_name": "Ravi Verma",
+        "relative_name": "Sunita Verma",
+        "relation": "wife",
+        "extra_info": "Stays with patient"
+    },
+    "Patient4_Relative2": {
+        "patient_name": "Ravi Verma",
+        "relative_name": "Ankita Verma",
+        "relation": "daughter",
+        "extra_info": "College student"
+    },
+    "Patient4_Relative3": {
+        "patient_name": "Ravi Verma",
+        "relative_name": "Shashi Verma",
+        "relation": "sister",
+        "extra_info": "Runs family business"
+    },
+    "Patient4_Relative4": {
+        "patient_name": "Ravi Verma",
+        "relative_name": "Meena Verma",
+        "relation": "sister-in-law",
+        "extra_info": "Helps with medication"
+    },
+    "Patient4_Relative5": {
+        "patient_name": "Ravi Verma",
+        "relative_name": "Dev Verma",
+        "relation": "father",
+        "extra_info": "Senior citizen, retired"
+    },
+
+    "Patient5_Relative1": {
+        "patient_name": "Emily Clark",
+        "relative_name": "Linda Clark",
+        "relation": "mother",
+        "extra_info": "Frequent calls to doctor"
+    },
+    "Patient5_Relative2": {
+        "patient_name": "Emily Clark",
+        "relative_name": "James Clark",
+        "relation": "father",
+        "extra_info": "Lives separately"
+    },
+    "Patient5_Relative3": {
+        "patient_name": "Emily Clark",
+        "relative_name": "Karen Clark",
+        "relation": "sister",
+        "extra_info": "Accompanies to therapy"
+    },
+    "Patient5_Relative4": {
+        "patient_name": "Emily Clark",
+        "relative_name": "Ben Clark",
+        "relation": "uncle",
+        "extra_info": "Provides financial support"
+    },
+    "Patient5_Relative5": {
+        "patient_name": "Emily Clark",
+        "relative_name": "Noran Lee",
+        "relation": "cousin",
+        "extra_info": "Emergency backup contact"
+    },
+
+    "Patient6_Relative1": {
+        "patient_name": "Aarav Sharma",
+        "relative_name": "Rajesh Sharma",
+        "relation": "father",
+        "extra_info": "Working abroad"
+    },
+     "Patient6_Relative2": {
+        "patient_name": "Aarav Sharma",
+        "relative_name": "Priya Sharma",
+        "relation": "mother",
+        "extra_info": "Main caretaker"
+    },
+    "Patient6_Relative3": {
+        "patient_name": "Aarav Sharma",
+        "relative_name": "Riya Sharma",
+        "relation": "sister",
+        "extra_info": "Medical student"
+    },
+    "Patient6_Relative4": {
+        "patient_name": "Aarav Sharma",
+        "relative_name": "Ajay Sharma",
+        "relation": "grandfather",
+        "extra_info": "Retired army officer"
+    },
+    "Patient6_Relative5": {
+        "patient_name": "Aarav Sharma",
+        "relative_name": "Neha Singh",
+        "relation": "aunt",
+        "extra_info": "Manages appointments"
+    }
+}

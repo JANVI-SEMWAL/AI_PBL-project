@@ -1,7 +1,18 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress all TF logging
+import warnings
+warnings.filterwarnings('ignore', category=DeprecationWarning)
+warnings.filterwarnings('ignore', category=UserWarning)
+warnings.filterwarnings('ignore', category=FutureWarning)
+
 import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 import pickle
+
+# Suppress TensorFlow logging
+import tensorflow as tf
+tf.get_logger().setLevel('ERROR')
 
 model_path = 'cnn_best_model.h5'  
 data_pickle = 'preprocessed_data.pkl'  # to load class_names
@@ -23,7 +34,7 @@ def preprocess_face(face_img):
 
 def predict_face(face_img):
     processed = preprocess_face(face_img)
-    preds = model.predict(processed)
+    preds = model.predict(processed, verbose=0)  # Added verbose=0 to suppress prediction output
     class_idx = np.argmax(preds)
     confidence = preds[0][class_idx]
     return class_names[class_idx], confidence

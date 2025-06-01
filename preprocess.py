@@ -5,16 +5,15 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 import pickle
 
-# === CONFIG ===
-dataset_path = r"C:\Users\Janvi\Desktop\APPROACH1\relativesdataset"  # Folder with PatientX_RelativeY folders
+dataset_path = r"C:\Users\Janvi\Desktop\APPROACH1\relativesdataset"  # Folder with PatientX_RelativeY folders  jese ki patient1_relative1
 img_size = (160, 160)
 
 X = []
 y = []
-class_names = sorted(os.listdir(dataset_path))  # Ensure consistent label order
+class_names = sorted(os.listdir(dataset_path))  # Ensure consistent label order ....sorted data taki better rhe chronology
 
 # Map class names to numeric labels
-class_to_label = {cls: idx for idx, cls in enumerate(class_names)}   #patient1_relative1 : 0
+class_to_label = {cls: idx for idx, cls in enumerate(class_names)}   #patient1_relative1 : 0  -> aise ho rha h
 
 print("Preprocessing images...")
 
